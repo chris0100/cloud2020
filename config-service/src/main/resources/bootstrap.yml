@@ -7,7 +7,7 @@ spring:
       server:
         git:
           uri: https://github.com/chris0100/cloud2020.git
-          searchPath: config-data
+          searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
   security:
